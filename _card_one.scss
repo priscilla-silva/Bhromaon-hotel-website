@@ -26,14 +26,56 @@
 //     }
 // }
 
-// .card_one_info {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+.card_one {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; 
+    margin-top: 100px;
+    
+}
 
-// h1 {
-//     font-family: fonts.$main-font;
-//     color: colors.$text;
-//     font-size: 56px;
-// }
+.card_one_info {
+    text-align: center;
+
+    &_title {
+        font-family: fonts.$main-font;
+        color: colors.$text;
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 4.8px;
+    }
+
+    &_tagline {
+        font-family: fonts.$main-font;
+        color: colors.$text;
+        font-size: 22px;
+        letter-spacing: 6.82px;
+    }
+
+    &_search-bar {
+        width: 503px;
+        border: 0px;
+        padding: 15px;
+        font-family: fonts.$main-font;
+        color: colors.$search;
+        letter-spacing: 2.8px;
+        text-align: center;
+        
+        
+    }
+
+    &_btn-search {
+        font-family: fonts.$heading-font;
+        color: white;
+        border: 1px solid white;
+        padding: 13px;
+        background-color: colors.$buttons;
+
+
+    }
+    &_btn-search:hover {
+        background-color: colors.$buttons-click;
+    }
+}
+
