@@ -1,0 +1,150 @@
+.card_four {
+    background: url(/images/earth_sea.png) no-repeat center; 
+    background-size: cover;
+    width: 1425px;
+    height: 700px;
+    position: relative;
+    top:-100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 100px;
+
+    &_box {
+        background-color: colors.$shading;
+        font-family: fonts.$main-font;
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        opacity: .9;
+        
+        
+    }
+    &_tag {
+        color: white;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    &_title {
+        color: white;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    &_text {
+        color:white;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.btn-book {
+    font-family: fonts.$heading-font;
+    color: white;
+    border: 0px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: colors.$buttons;
+    width:50%;
+
+    &:hover {
+        background-color: colors.$buttons-click;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .card_four {
+        background: url(/images/earth_sea.png) no-repeat center; 
+        background-size: cover;
+        width: 1920px;
+        position: relative;
+        top:-100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card_four {
+        background: url(/images/earth_sea.png) no-repeat center; 
+        background-size: cover;
+        width: 768px;
+        position: relative;
+        top:-150px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 100px;
+
+        &_box {
+            background-color: colors.$shading;
+            font-family: fonts.$main-font;
+            padding: 45px;
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            opacity: .9;
+            
+            
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .card_four {
+        background: url(/images/earth_sea.png) no-repeat center; 
+        background-size: cover;
+        width: 320px;
+        position: relative;
+        top:-150px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 20px;
+
+        &_box {
+            background-color: colors.$shading;
+            font-family: fonts.$main-font;
+            padding: 15px;
+            // display: flex;
+            // flex-direction: column;
+            width: 75%;
+            opacity: .9;
+            
+        }
+        &_tag {
+            color: white;
+            font-size: 14px;
+            
+        }
+        &_title {
+            color: white;
+            font-size: 14px;
+            
+            
+        }
+        &_text {
+            color:white;
+            font-size: 10px;
+            
+        }
+        
+        .btn-book {
+            font-family: fonts.$heading-font;
+            color: white;
+            border: 0px;
+            padding: 10px;
+            font-size: 12px;
+            background-color: colors.$buttons;
+            width:50%;
+        
+            &:hover {
+                background-color: colors.$buttons-click;
+            }
+            
+            
+        }
+    }
+}
