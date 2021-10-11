@@ -12,3 +12,32 @@
     display: flex;
     justify-content: center;
 }
+
+body {
+    background-image: url(/images/landscape.png);
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        background-image: url(/images/landscape.png);
+        background-repeat: no-repeat;
+        background-position:top;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-image: url(/images/landscape_ipad.png);
+        background-repeat: no-repeat;
+        // background-position:top;
+    }
+}
+
+@media screen and (max-width:320px) {
+    body {
+        background-image: url(/images/landscape_iphone.png);
+        background-repeat: no-repeat;
+        // background-position:top;
+    }
+}

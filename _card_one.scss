@@ -1,13 +1,39 @@
-@media screen and (min-width:1920px) {
-    img{
-        width: 1920px;
-        height: auto;
-    }
-}
+// .bg_image {
+//     z-index: -1;
+// }
 
-@media screen and (min-width:768px) and (max-width: 1000px) {
-    img{
-        width: 768px;
-        height: auto;
-    }
-}
+// @media screen and (max-width:1920px) {
+//     img{
+//         width: 1920px;
+//         height: auto;
+//         z-index: -1;
+//     }
+// }
+
+// @media screen and (min-width:1024px) and (max-width:1919px){
+//     img{
+//         width: 1440px;
+//         height: auto;
+//         z-index: -1;
+//     }
+// }
+
+// @media screen and (min-width:768px) and (max-width: 1000px) {
+//     img{
+//         width: 768px;
+//         height: auto;
+//         z-index: -1;
+//     }
+// }
+
+// .card_one_info {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// h1 {
+//     font-family: fonts.$main-font;
+//     color: colors.$text;
+//     font-size: 56px;
+// }
