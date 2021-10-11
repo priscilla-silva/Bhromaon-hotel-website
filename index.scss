@@ -7,3 +7,8 @@
 @import 'card_four';
 @import 'card_five';
 @import 'top_nav';
+
+.page {
+    display: flex;
+    justify-content: center;
+}
