@@ -34,9 +34,10 @@
     align-items: stretch; 
     background: url(/images/landscape.png) no-repeat center; 
     background-size: cover;
-    width: 1440px;
+    width: 1424px;
     height: 700px;
     position: relative;
+    
     
 }
 
@@ -115,7 +116,7 @@
     }
 }
 
-@media screen and (min-width:320px) {
+@media screen and (max-width:320px) {
     .card_one {
         display: flex;
         justify-content: center;
@@ -185,4 +186,4 @@
     
 
 
-@import 'card_two';
+
