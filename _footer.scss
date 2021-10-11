@@ -1,0 +1,50 @@
+footer {
+    background-color: #232323;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    position: relative;
+    top:-100px;
+    height: 100%;
+
+
+
+}
+
+.footer_logo {
+    color: white;
+    font-family: fonts.$main-font;
+    font-size: 24px;
+    letter-spacing: 3.36px;
+    line-height: 26px;
+}
+
+.footer_tagline {
+    color: white;
+    font-family: fonts.$main-font;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: 26px;
+}
+
+.sn-icons {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 36px;
+}
+
+
+.fa-facebook-f {padding: 20px;}
+.fa-twitter {padding: 20px;}
+.fa-youtube {padding: 20px;}
+.fa-pinterest {padding: 20px;}
+
+
+.fa-linkedin {
+    color: colors.$buttons;
+    padding: 20px;
+}
