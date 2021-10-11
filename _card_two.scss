@@ -1,14 +1,69 @@
 .card_two {
-    display: flex;
-    justify-content: center;
-    align-items: stretch; 
+ 
     background: url(/images/dark_castle.png) no-repeat center; 
     background-size: cover;
     width: 1424px;
     height: 700px;
     position: relative;
     top:-100px;
+
+    &_logo {
+        color:white;
+        font-family: fonts.$main-font;
+        padding: 10px;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 2.4px;
+    }
+
+    &_top-nav {
+        background-color: colors.$buttons;
+        font-family: fonts.$heading-font;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        &_ul {
+            display: flex;
+
+        }
+    }
+
+    &_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 26px;
+        margin: 50px;
+        padding: 100px;
+        
+    }
     
+}
+
+li {
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+h3 {
+    font-family: fonts.$heading-font;
+    color: white;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: fonts.$main-font;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    width: 50%;
 }
 
 @media screen and (min-width:1920px) {
@@ -48,3 +103,4 @@
         }
 
     }
+
