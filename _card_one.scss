@@ -26,17 +26,25 @@
 //     }
 // }
 
+
+
 .card_one {
     display: flex;
-    // flex-wrap: wrap;
     justify-content: center;
     align-items: stretch; 
-    margin-top: 100px;
+    background: url(/images/landscape.png) no-repeat center; 
+    background-size: cover;
+    width: 1440px;
+    height: 700px;
+    position: relative;
     
 }
 
 .card_one_info {
     text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    // width: 100%;
 
     &_title {
         font-family: fonts.$main-font;
@@ -83,3 +91,98 @@
     }
 }
 
+
+@media screen and (min-width:1920px) {
+    .card_one {
+        display: flex;
+        justify-content: center;
+        align-items: stretch; 
+        background: url(/images/landscape.png) no-repeat center; 
+        background-size: cover;
+        width: 1920px;
+        position: relative;   
+    }
+        }
+    
+@media screen and (max-width:768px) {
+    .card_one {
+        display: flex;
+        justify-content: center;
+        align-items: stretch; 
+        background: url(/images/landscape_ipad.png) no-repeat center; 
+        width: 768px;
+        position: relative;   
+    }
+}
+
+@media screen and (min-width:320px) {
+    .card_one {
+        display: flex;
+        justify-content: center;
+        align-items: stretch; 
+        background: url(/images/landscape_iphone.png) no-repeat center; 
+        width: 320px;
+        height: 568px;
+        background-size: cover;
+        position: relative; 
+           
+        }
+
+        .card_one_info {
+            text-align: center;
+            margin: 75px;
+            padding: 10px;
+
+            &_title {
+                font-family: fonts.$main-font;
+                color: colors.$text;
+                font-size: 32px;
+                font-weight: 700;
+                letter-spacing: 2.8px;
+            }
+        
+            &_tagline {
+                font-family: fonts.$main-font;
+                color: colors.$text;
+                font-size: 16px;
+                letter-spacing: 3.82px;
+            }
+        
+            &_search-bar {
+                width: 200px;
+                margin: 10px;
+                border: 0px;
+                padding: 8px;
+                font-family: fonts.$main-font;
+                color: colors.$search;
+                letter-spacing: 1.8px;
+                font-size: 9px;
+                text-align: center;
+                outline: none;
+                
+                
+            }
+        
+            &_btn-search {
+                font-family: fonts.$heading-font;
+                color: white;
+                border: 0px;
+                padding: 8px;
+                background-color: colors.$buttons;
+        
+        
+            }
+
+        }
+
+        
+
+    }
+
+    
+
+
+    
+
+
+@import 'card_two';

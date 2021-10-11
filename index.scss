@@ -14,30 +14,38 @@
 }
 
 body {
-    background-image: url(/images/landscape.png);
-    background-repeat: no-repeat;
+    margin: 0px;
 }
 
-@media screen and (min-width:1920px) {
-    body {
-        background-image: url(/images/landscape.png);
-        background-repeat: no-repeat;
-        background-position:top;
-    }
-}
+// @media screen and (min-width:1920px) {
+//     body {
+//         background-image: url(/images/landscape.png);
+//         background-repeat: no-repeat;
+//         background-position:top;
+//     }
+// }
 
-@media screen and (max-width:768px) {
-    body {
-        background-image: url(/images/landscape_ipad.png);
-        background-repeat: no-repeat;
-        // background-position:top;
-    }
-}
+// @media screen and (min-width:1024px) and (max-width:1919px) {
+//     .card_one {
+//         background-image: url(/images/landscape.png);
+//         background-repeat: no-repeat;
 
-@media screen and (max-width:320px) {
-    body {
-        background-image: url(/images/landscape_iphone.png);
-        background-repeat: no-repeat;
-        // background-position:top;
-    }
-}
+    
+//     }
+// }
+
+// @media screen and (max-width:768px) {
+//     body {
+//         background-image: url(/images/landscape_ipad.png);
+//         background-repeat: no-repeat;
+//         // background-position:top;
+//     }
+// }
+
+// @media screen and (max-width:320px) {
+//     body {
+//         background-image: url(/images/landscape_iphone.png);
+//         background-repeat: no-repeat;
+//         // background-position:top;
+//     }
+// }
