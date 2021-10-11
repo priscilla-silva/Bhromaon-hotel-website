@@ -32,13 +32,29 @@
     &_info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         line-height: 26px;
         margin: 50px;
         padding: 100px;
         
     }
+
+    &_images {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: relative;
+        top: -300px
+    }
+
+
     
+}
+
+.cabin_sea {
+    margin: 15px;
+    position: relative;
+    left: -40px;
 }
 
 li {
@@ -68,39 +84,132 @@ h4 {
 
 @media screen and (min-width:1920px) {
     .card_two {
-        display: flex;
-        justify-content: center;
-        align-items: stretch; 
+ 
         background: url(/images/dark_castle.png) no-repeat center; 
         background-size: cover;
         width: 1920px;
-        position: relative;   
+        position: relative;  
+        
+        &_logo {
+            color:white;
+            font-family: fonts.$main-font;
+            padding: 10px;
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: 2.4px;
+        }
+    
+        &_top-nav {
+            background-color: colors.$buttons;
+            font-family: fonts.$heading-font;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+    
+            &_ul {
+                display: flex;
+    
+            }
+        }
     }
         }
     
 @media screen and (max-width:768px) {
     .card_two {
-        display: flex;
-        justify-content: center;
-        align-items: stretch; 
         background: url(/images/dark_castle.png) no-repeat center; 
         width: 768px;
-        position: relative;   
+        position: relative;  
+        
+        &_info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 26px;
+            margin: 50px;
+            padding: 50px;
+            
+        }
+        &_images {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            position: relative;
+            top: -400px
+        }
+
+        .cabin_sea {
+            transform: scale(.7);
+            margin: 15px;
+            position: relative;
+            left: 60px;
+        }
+
+        .mountain {
+            transform: scale(.7);
+            position: relative;
+            left: 60px;
+        }
+
+        
+    }
+
+    li {
+        visibility: hidden;
     }
 }
 
 @media screen and (max-width:320px) {
-    .card_two {
-        display: flex;
-        justify-content: center;
-        align-items: stretch; 
+    .card_two { 
         background: url(/images/dark_castle.png) no-repeat center; 
         width: 320px;
-        height: 568px;
+        
         background-size: cover;
         position: relative; 
-           
+
+        &_logo {
+            color:white;
+            font-family: fonts.$main-font;
+            padding: 10px;
+            font-size: 18px;
+
+        }
+    
+        &_top-nav {
+            background-color: colors.$buttons;
+            font-family: fonts.$heading-font;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start
+
         }
 
+        &_info {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+           
+            
+        }
+
+        &_images {
+            visibility: hidden;
+        }
+
+        h3 {
+            font-family: fonts.$heading-font;
+            color: white;
+            font-size: 18px;
+        }
+        
+        h4 {
+            font-family: fonts.$main-font;
+            color: white;
+            font-size: 10px;
+            
+        }
+        }
+
+      
     }
 
