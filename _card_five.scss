@@ -1,0 +1,38 @@
+.card_five {
+    background: url(/images/guy_in_mountain_large.png) no-repeat center; 
+    background-size: cover;
+    width: 1425px;
+    height: 700px;
+    position: relative;
+    top:-100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+
+    &_title {
+        font-family: fonts.$heading-font;
+        color: white;
+        font-size: 36px;
+    }
+    &_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    &_content_box {
+        background-color: colors.$shading;
+        width: 45%;
+        color: white;
+        font-family: fonts.$main-font;
+        line-height: 26px;
+        padding: 20px;
+    }
+}
+
+.fa-quote-left {
+    color: colors.$buttons;
+}
