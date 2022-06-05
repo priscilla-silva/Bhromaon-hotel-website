@@ -1,6 +1,6 @@
 .card_two {
  
-    background: url(/images/dark_castle.png) no-repeat center; 
+    background: url(./images/dark_castle.png) no-repeat center; 
     background-size: cover;
     width: 1425px;
     height: 700px;
@@ -103,7 +103,7 @@ h4 {
 @media screen and (min-width:1920px) {
     .card_two {
  
-        background: url(/images/dark_castle.png) no-repeat center; 
+        background: url(./images/dark_castle.png) no-repeat center; 
         background-size: cover;
         width: 1920px;
         position: relative;  
@@ -134,7 +134,7 @@ h4 {
     
 @media screen and (max-width:768px) {
     .card_two {
-        background: url(/images/dark_castle.png) no-repeat center; 
+        background: url(./images/dark_castle.png) no-repeat center; 
         width: 768px;
         position: relative;  
         
@@ -192,7 +192,7 @@ h4 {
 
 @media screen and (max-width:320px) {
     .card_two { 
-        background: url(/images/dark_castle.png) no-repeat center; 
+        background: url(./images/dark_castle.png) no-repeat center; 
         width: 320px;
         
         background-size: cover;
