@@ -1,5 +1,5 @@
 .card_three {
-    background: url(./images/hotel_room.png) no-repeat center; 
+    background: url(../images/hotel_room.png) no-repeat center; 
     background-size: cover;
     width: 1425px;
     height: 700px;
@@ -59,7 +59,7 @@
 
 @media screen and (min-width:1920px) {
     .card_three {
-        background: url(./images/hotel_room.png) no-repeat center; 
+        background: url(../images/hotel_room.png) no-repeat center; 
         background-size: cover;
         width: 1920px;
         position: relative;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width:768px) {
     .card_three {
-        background: url(./images/hotel_room.png) no-repeat center; 
+        background: url(../images/hotel_room.png) no-repeat center; 
         background-size: cover;
         width: 768px;
         position: relative;
@@ -99,7 +99,7 @@
 
 @media screen and (max-width:320px) {
     .card_three {
-        background: url(./images/hotel_room.png) no-repeat center; 
+        background: url(../images/hotel_room.png) no-repeat center; 
         background-size: cover;
         width: 320px;
         position: relative;
